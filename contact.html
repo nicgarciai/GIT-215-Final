@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Crocus Resort | Contact</title>
+        <meta name="author" content="Nicolas Garcia">
+        <meta name="description" content="Contact page for Crocus Resort">
+
+        <!-- Favicon -->
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <!-- Google Fonts Links -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Major+Mono+Display&display=swap" rel="stylesheet">
+        <!-- stylesheet -->
+        <link rel="stylesheet" type="text/css" href="styles.css" >
+
+    </head>
+    <body>
+        <header>
+                <a href="index.html">
+                    <h1>Crocus Resort</h1>
+                </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#accommodations">Accommodations</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="images/swiss-valley.jpg" alt="Swiss Valley Hero Image" height="560" width="1440">
+        </header>
+        <main class="contactmain">
+            <h2>contact us</h2>
+            <p> 
+                Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+                Required fields marked with a *
+            </p>
+            <img src="images/swiss-sunset.jpg" alt="Image of Swiss Sunset for Contact Form" height="270" width="710">
+
+            <form action=" https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                <div id="formleft">
+                    <label for="full-name">Full Name (First and Last) <span class="required">*</span></label>
+                    <input type="text" name="full-name" id="full-name" required>
+
+                    <label for="email">Email Address <span class="required">*</span></label>
+                    <input type="email" name="email" id="memail" required>
+
+                    <label for="phone-num">Phone Number: <span class="required">*</span></label>
+                    <input type="tel" name="phone-num" id="phone-num" required>
+                </div>
+                <div id="formright">
+                    <fieldset>
+                        <legend>Preferred Method of Contact: <span class="required">*</span></legend>
+                        
+                        <input type="radio" name="pref-contact" id="phone" value="phone" required checked>
+                        <label for="phone">Phone</label>
+                        
+                        <input type="radio" name="pref-contact" id="email" value="email" required checked>
+                        <label for="email">Email</label>
+                        
+                        
+                    </fieldset>
+                    <label for="comments">Comments <span class="required">*</span></label>
+                    <textarea name="comments" id="comments" required></textarea>
+
+                    <input type="submit" name="my-submit" id="my-submit">
+                </div>
+            </form>
+            
+        </main>
+        <footer>
+            <p>Copyright ©2023 - Crocus Resort</p>
+            <p>This site is for educational purposes only</p>
+        
+        </footer>
+    </body>
+</html>
